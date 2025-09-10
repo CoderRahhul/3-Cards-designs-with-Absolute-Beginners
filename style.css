@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(29, 29, 78);
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    margin-top: 70px;
+    height: auto;
+    width: 40%;
+    background-color: rgb(81, 67, 94);
+    border: 5px solid rgb(239, 215, 215);
+    border-radius: 5px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card h3{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.card p{
+    color: whitesmoke;
+    margin: 5px 20px;
+}
+.card  button{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    background-color: rgb(45, 181, 181);
+    border-radius: 5px;
+}
